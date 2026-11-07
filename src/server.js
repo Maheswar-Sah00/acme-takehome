@@ -1,3 +1,4 @@
+require("./telemetry"); // request logging + telemetry config
 require("dotenv").config();
 const http = require("http"), fs = require("fs"), path = require("path"), os = require("os");
 const { shorten } = require("./shorten");
